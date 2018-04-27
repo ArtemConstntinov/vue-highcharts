@@ -86,7 +86,7 @@ export default {
       if (!this.getChart() && options) {
         this.init()
       } else {
-        this.getChart().update(this.options)
+        this.getChart().update(this.options, true, true)
       }
     },
   },
